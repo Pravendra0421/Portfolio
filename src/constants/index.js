@@ -24,9 +24,9 @@ import {
   tripguide,
   threejs,
 } from "../assets";
-import project1 from "../assets/project1.jpg"
-import food from "../assets/food.jpg"
-import cryptocurrency from "../assets/cryptocurrency.jpg"
+import project1 from "../assets/socialmedia.jpg"
+import myshopmanager from "../assets/myshopmanager.jpg"
+import eztech from "../assets/eztech-service.jpg"
 import google from "../assets/sundar_pichai.jpg"
 import tata from "../assets/ratan_tata_sir.jpeg"
 import tesla1 from "../assets/ElonMusk.webp"
@@ -187,9 +187,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "StudyNotion",
+    name: "SocialMedia",
     description:
-      "StudyNotion is educational Technology platform in this we can add our course and video lecture also",
+      "Developed a dynamic social media web application using the MERN stack, enabling users to connect, share content, and engage in real-time interactions. Implemented features such as user authentication, profile management, posts, likes, comments, and real-time chat.",
     tags: [
       {
         name: "react",
@@ -205,12 +205,12 @@ const projects = [
       },
     ],
     image: project1,
-    source_code_link: "https://github.com/Pravendra0421",
+    source_code_link: "https://socialmedia-2-0oo5.onrender.com/",
   },
   {
-    name: "Fetch_Cryptocoin_project",
+    name: "MyShopManager",
     description:
-      "CryptoFetch: A web application that fetches and displays live cryptocurrency data, including prices, descriptions, and market trends, using public APIs.",
+      "Developed a Local Market Shop Manager web application tailored for shopkeepers, leveraging Supabase for real-time data management and authentication. Built with React and React Query for an optimized, responsive frontend, and implemented a robust backend using Node.js and Express.",
     tags: [
       {
         name: "react",
@@ -224,14 +224,18 @@ const projects = [
         name: "css",
         color: "pink-text-gradient",
       },
+      {
+        name: "supabase db",
+        color: "pink-text-gradient",
+      },
     ],
-    image: cryptocurrency,
+    image: myshopmanager,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Food Delivery",
+    name: "EZTech Service Website",
     description:
-      "Foodify is a responsive and user-friendly food delivery website designed to connect users with their favorite restaurants and deliver meals conveniently to their doorsteps.",
+      "Designed and developed the EzTech Service website, a modern and responsive platform for showcasing technology services. Built using React for a dynamic user interface, with Node.js and Express powering the backend. contact forms, and real-time inquiries to enhance user engagement.",
     tags: [
       {
         name: "react",
@@ -250,8 +254,8 @@ const projects = [
         color: "green-text-gradient",
       },
     ],
-    image: food,
-    source_code_link: "https://github.com/",
+    image: eztech,
+    source_code_link: "https://www.eztech.in/",
   },
 ];
 
